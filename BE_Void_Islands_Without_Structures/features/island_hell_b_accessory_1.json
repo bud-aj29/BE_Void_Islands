@@ -1,0 +1,23 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "void:island_hell_b_accessory_1"
+    },
+    "places_feature": "void:void_glowstone",
+    "scatter_chance": 10,
+    "iterations": 15,
+    "x": {
+      "distribution": "triangle",
+      "extent": [ 6, 10 ]
+    },
+    "z": {
+      "distribution": "triangle",
+      "extent": [ 6, 10 ]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [ 12, 14 ]
+    }
+  }
+}

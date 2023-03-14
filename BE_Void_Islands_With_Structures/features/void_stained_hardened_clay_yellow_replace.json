@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "void:void_stained_hardened_clay_yellow_replace"
+    },
+    "places_block": {
+      "name": "minecraft:stained_hardened_clay",
+      "states": {
+        "color": "yellow"
+      }
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:dirt"
+    ]
+  }
+}

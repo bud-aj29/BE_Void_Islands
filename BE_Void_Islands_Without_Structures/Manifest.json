@@ -1,0 +1,19 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Void world generation with dynamic floating islands for major biomes. Structures are deleted during void generation.",
+		"name": "Void_Islands_Without_Structures",
+		"uuid": "248b1f9a-53df-4bb5-9a1c-25517f6c14b0",
+		"version": [ 0,0,5 ],
+		"min_engine_version": [ 1, 19, 30 ]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "8381e78a-8166-4d3b-aafa-a60cc72a658e",
+			"version": [0, 0, 1]
+		}
+	]
+}
+

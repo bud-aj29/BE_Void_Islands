@@ -1,0 +1,20 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "void:island_dripstone_caves_a_layer_4_a_alternate"
+    },
+    "places_feature": "void:void_water_replace",
+    "scatter_chance": 100,
+    "iterations": 2,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ 7, 10 ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 7, 10 ]
+    },
+    "y": 8
+  }
+}

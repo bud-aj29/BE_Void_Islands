@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "void:s_chest_placement",
+      "places_feature": "void:void_chest"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag", "operator": "!=", "value": "the_end",
+	  "test": "has_biome_tag", "operator": "!=", "value": "nether"
+        }
+      ]
+    },    
+    "distribution": {
+      "scatter_chance": "(variable.worldx == 16 && variable.worldz == 16) ? 100 : 0",
+      "iterations": 1,
+      "x": -8,
+      "z": -8,
+      "y": 72
+    }
+  }
+}

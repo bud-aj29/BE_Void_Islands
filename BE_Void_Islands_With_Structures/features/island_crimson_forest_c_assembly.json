@@ -1,0 +1,24 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "void:island_crimson_forest_c_assembly"
+    },
+    "features": [
+      "void:void_base_island_c_assembly",
+      "void:island_crimson_forest_a_layer_1_a_alternate",
+      "void:island_crimson_forest_a_layer_1_b_main",
+      "void:island_crimson_forest_a_layer_2_a_alternate",
+      "void:island_crimson_forest_a_layer_2_b_main",
+      "void:island_crimson_forest_a_layer_3_a_alternate",
+      "void:island_crimson_forest_a_layer_3_b_main",
+      "void:island_crimson_forest_a_layer_4_a_alternate",
+      "void:island_crimson_forest_a_layer_4_b_main",
+      "void:island_crimson_forest_b_accessory_1",
+      "void:island_crimson_forest_b_accessory_2",
+      "void:island_crimson_forest_b_accessory_3",
+      "void:island_crimson_forest_b_accessory_4",
+      "void:island_crimson_forest_b_accessory_5"
+    ]
+  }
+}
