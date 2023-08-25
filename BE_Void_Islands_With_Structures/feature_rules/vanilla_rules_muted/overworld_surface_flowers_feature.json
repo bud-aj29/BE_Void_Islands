@@ -62,6 +62,11 @@
           "value": "plains"
         },
         {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "cherry_grove"
+        },
+        {
           "any_of": [
             {
               "all_of": [
@@ -122,3 +127,5 @@
     }
   }
 }
+
+

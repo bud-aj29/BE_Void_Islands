@@ -12,6 +12,11 @@
           "any_of": [
             {"test": "has_biome_tag", "operator": "==", "value": "dripstone_caves"}
           ]
+        },
+        {
+          "all_of": [
+            {"test": "has_biome_tag", "operator": "!=", "value": "cherry_grove"}
+          ]
         }
       ]
     },    
