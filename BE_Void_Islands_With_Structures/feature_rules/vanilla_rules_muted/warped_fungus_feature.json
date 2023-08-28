@@ -2,23 +2,16 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "minecraft:overworld_underground_deepslate_feature",
-      "places_feature": "minecraft:deepslate_feature"
+      "identifier": "minecraft:warped_fungus_feature",
+      "places_feature": "minecraft:warped_fungus_scatter_feature"
     },
     "conditions": {
-      "placement_pass": "before_underground_pass",
+      "placement_pass": "surface_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [
             {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "overworld"
-            },
-            {
-              "test": "has_biome_tag",
-              "operator": "==",
-              "value": "overworld_generation"
+              "test": "has_biome_tag", "operator": "==", "value": "warped_forest"
             }
           ]
         }
@@ -26,14 +19,13 @@
     },
     "distribution": {
       "iterations": 0,
-      "coordinate_eval_order": "zyx",
       "x": {
         "distribution": "uniform",
         "extent": [ 0, 16 ]
       },
       "y": {
         "distribution": "uniform",
-        "extent": [ 0, 16 ]
+        "extent": [ 33, 120 ]
       },
       "z": {
         "distribution": "uniform",
@@ -42,6 +34,14 @@
     }
   }
 }
+
+
+
+
+
+
+
+
 
 
 

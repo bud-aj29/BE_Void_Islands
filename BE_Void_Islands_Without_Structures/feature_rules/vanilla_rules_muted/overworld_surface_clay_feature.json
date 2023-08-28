@@ -2,11 +2,11 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "minecraft:overworld_underground_deepslate_feature",
-      "places_feature": "minecraft:deepslate_feature"
+      "identifier": "minecraft:overworld_surface_clay_feature",
+      "places_feature": "minecraft:clay_feature"
     },
     "conditions": {
-      "placement_pass": "before_underground_pass",
+      "placement_pass": "surface_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [
@@ -26,15 +26,11 @@
     },
     "distribution": {
       "iterations": 0,
-      "coordinate_eval_order": "zyx",
       "x": {
         "distribution": "uniform",
         "extent": [ 0, 16 ]
       },
-      "y": {
-        "distribution": "uniform",
-        "extent": [ 0, 16 ]
-      },
+      "y": "query.above_top_solid(variable.worldx, variable.worldz)",
       "z": {
         "distribution": "uniform",
         "extent": [ 0, 16 ]
@@ -42,6 +38,10 @@
     }
   }
 }
+
+
+
+
 
 
 

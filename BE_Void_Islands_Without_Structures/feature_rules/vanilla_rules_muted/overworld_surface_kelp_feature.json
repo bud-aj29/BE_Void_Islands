@@ -74,7 +74,7 @@
       ]
     },
     "distribution": {
-      "iterations": 0, // most biomes no-op, but we still need to roll our scatter chance to keep rand consistent
+      "iterations": 0,
       "scatter_chance": {
         "numerator": 1,
         "denominator": 18

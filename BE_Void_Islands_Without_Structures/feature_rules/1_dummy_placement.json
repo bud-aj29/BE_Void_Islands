@@ -9,8 +9,7 @@
       "placement_pass": "final_pass",
       "minecraft:biome_filter": [
         {
-          "test": "has_biome_tag", "operator": "!=", "value": "the_end",
-	  "test": "has_biome_tag", "operator": "!=", "value": "nether"
+          "test": "has_biome_tag", "operator": "!=", "value": "the_end"
         }
       ]
     },    
