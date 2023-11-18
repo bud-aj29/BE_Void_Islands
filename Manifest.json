@@ -2,12 +2,12 @@
   "format_version": 2,
   "header": {
     "description": "Void world generation with dynamic floating islands for major biomes. Structures kept during void generation.",
-    "name": "Void_Islands_With_Structures_0.0.9",
-    "uuid": "107e14db-736f-45c7-985e-270b87747be3",
+    "name": "Void_Islands_With_Structures_0.1.0",
+    "uuid": "0d3bc3cd-4ad7-40b1-83f2-7069680a4cae",
     "version": [
       0,
-      0,
-      9
+      1,
+      0
     ],
     "min_engine_version": [
       1,
@@ -19,7 +19,7 @@
     {
       "description": "",
       "type": "data",
-      "uuid": "84e36929-1f3e-4456-ba39-000a56fe74d1",
+      "uuid": "027584c0-6ee7-4e31-8308-bea9d23cd627",
       "version": [
         0,
         0,

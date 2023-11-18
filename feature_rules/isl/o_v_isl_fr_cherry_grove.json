@@ -16,7 +16,7 @@
       ]
     },    
     "distribution": {
-      "scatter_chance": "(variable.worldx == 0 && variable.worldz == 0) ? 100 : 2.5",
+      "scatter_chance": "(variable.worldx == 0 && variable.worldz == 0) ? 100 : 1.0",
       "iterations": 1,
       "x": 0,
       "z": 0,

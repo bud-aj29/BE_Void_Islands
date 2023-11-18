@@ -2,7 +2,7 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "1_o-n_dummy_placement",
+      "identifier": "1_on_dummy_placement",
       "places_feature": "minecraft:dirt_feature"
     },
     "conditions": {
