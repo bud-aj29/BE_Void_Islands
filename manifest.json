@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Void world generation with dynamic floating islands for major biomes. Structures kept during void generation.",
+    "name": "Void_Islands_With_Structures_0.1.1",
+    "uuid": "145c5ca1-2398-4d1f-bb1a-cdce35e7dd72",
+    "version": [
+      0,
+      1,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/V_Islands_w_struct.js",
+      "uuid": "4a717bef-c6e0-470f-94bf-1f56e8d56252",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}
